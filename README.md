@@ -21,7 +21,7 @@ Slot can be thought as a variable. For example, for a weather chat bot an uutera
 
 ### Session Variables
 
-Some of the information that user provides can be useful down the line in conversation with the bot. For example, a bot might ask who its chatting with when a user starts conversation. Later in the conversation user might want to perform an ation which would require his/her name. For scanerio like this, we can store the username into session variable and pass it between the intents. Lamnda function can then make use or update this session variable.
+Some of the information that user provides can be useful later in conversation with bot. For example, a bot might ask who its chatting with when a user starts conversation. Later in the conversation user might want to perform an ation which would require his/her name. For scanerio like this, we can store the username into session variable that user provided at start of conversation and pass it between the intents. Lamnda function can then make use or update this session variable.
 
 ### Fullfilment using Lambda
 
