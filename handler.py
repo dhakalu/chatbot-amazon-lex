@@ -17,7 +17,7 @@ def build_response(message):
 random_work_response = ['I work as a software engineer.', 'I do coding.', 'I am a programmer.']
 about_me = ['I am Upen.', 'People call me Upen.', 'I am Upen from Nepal.', 'I am a chat machine.']
 
-def hello(event, context):
+def whoami(event, context):
     current_intent = event['currentIntent']
     intent_name = current_intent['name']
 
